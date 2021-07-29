@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bgimage{
+    background-image: url('h.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(146, 33, 33, 0.966);
+}
+
+.leftmenu{
+    width: 25%;
+    line-height: 70px;
+    float: left;
+}
+.leftmenu h4{
+    padding-left: 70px;
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.rightmenu{
+    width: 75%;
+    height: 100px;
+    float: right;
+}
+.rightmenu ul{
+    margin-left: 520px;
+}
+.rightmenu ul li{
+    font-family: 'Montserrat',sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+#firstlist{
+    color: orange;
+}
+.rightmenu ul li:hover{
+    color: orange;
+}
+
+.text{
+    width: 100%;
+    margin-top: 175px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.text h4{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+}
+.text h1{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 60px;
+    margin: 14px 0px;
+}
+.text h3{
+    font-size: 12px;
+    font-family: 'Open Sans',sans-serif;
+}
+#btn1{
+    background-color: white;
+    border: 3px solid white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 150px;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 25px;
+    color: red;
+}
+
+#btn2{
+    background-color:transparent;
+    border: 3px solid white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 150px;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 25px;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(146, 33, 33, 0.966);
+    margin-bottom: 0px;
+    margin-top: 142px;
+}
